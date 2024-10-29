@@ -8,6 +8,7 @@ param (
 Write-Host "Parameters received: type=$type, name=$name"
 
 # Variables
+$testt = "hih"
 $apiUrl = "http://localhost:3000/api/export/" + $name   # API to fetch data
 $commitMessage = "Auto-generated config JSON for release"
 $branchName = $name  # Specify your desired branch name
